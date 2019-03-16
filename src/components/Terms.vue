@@ -18,5 +18,15 @@ export default {
 <style lang="scss" scoped>
     .terms {
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #7C7C7C;
+    }
+
+    span {
+        color: #B1B2B3;
     }
 </style>

@@ -38,11 +38,13 @@ export default {
       inputs: [
       {
         id: 1,
-        type: 'email'
+        type: 'email',
+        icon: 'fa-user',
       },
       {
         id: 2,
-        type: 'password'
+        type: 'password',
+        icon: 'fa-unlock-alt',
       }
     ]
     }
@@ -81,5 +83,9 @@ html {
 
 .inputWrapper {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
 }
 </style>

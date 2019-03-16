@@ -27,7 +27,7 @@ export default {
         }
 
         & > p {
-            font-size: 1.7rem;
+            font-size: 1.9rem;
             color: #7C7C7C;
         }
     }
