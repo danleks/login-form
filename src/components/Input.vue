@@ -41,11 +41,20 @@ export default {
             color: #fff;
             transition: all .3s;
 
+            @media(min-width: 768px) {
+                padding: 2rem 0 1rem 0;
+                padding-left: 3.8rem;
+            }
+
             &::placeholder {
                 font-size: 1.5rem;
                 color: #CECECE;
                 text-transform: capitalize;
                 transition: all .3s;
+
+                @media(min-width: 768px) {
+                    font-size: 2.4rem;
+                }
             }
 
             &:focus {
@@ -71,10 +80,19 @@ export default {
             font-weight: bold;
             color: #aaa;
             transition: color .3s;
+
+            @media(min-width: 768px) {
+                left: 1.5rem;
+                font-size: 2.4rem;
+            }
         }
 
         &:not(:last-child) {
             margin-bottom: 2rem;
+
+            @media(min-width: 768px) {
+                margin-bottom: 6rem;
+            }
         }
     }
 </style>

@@ -24,6 +24,12 @@ export default {
         justify-content: center;
         font-size: 1.4rem;
         color: #7C7C7C;
+
+        @media(min-width: 768px) {
+            flex: 2;
+            width: 100%;
+            font-size: 2.4rem;
+        }
     }
 
     span {

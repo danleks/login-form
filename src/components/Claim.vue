@@ -19,16 +19,29 @@ export default {
         justify-content: center;
         align-items: center;
 
+        @media(min-width: 768px) {
+            flex: 3;
+        }
+
         & > h1 {
             color: #fff;
             font-size: 3.5rem;
             font-weight: 100;
             line-height: 1.5;
+
+            @media(min-width: 768px) {
+                font-size: 4.8rem;
+            }
         }
 
         & > p {
             font-size: 1.9rem;
             color: #7C7C7C;
+
+            @media(min-width: 768px) {
+                font-size: 4.2rem;
+                font-weight: 100;
+            }
         }
     }
 
