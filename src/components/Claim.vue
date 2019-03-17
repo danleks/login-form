@@ -23,6 +23,10 @@ export default {
             flex: 3;
         }
 
+        @media(min-width: 1024px) {
+            flex: 2;
+        }
+
         & > h1 {
             color: #fff;
             font-size: 3.5rem;
@@ -31,6 +35,10 @@ export default {
 
             @media(min-width: 768px) {
                 font-size: 4.8rem;
+            }
+
+            @media(min-width: 1024px) {
+                font-size: 4rem;
             }
         }
 
@@ -41,6 +49,10 @@ export default {
             @media(min-width: 768px) {
                 font-size: 4.2rem;
                 font-weight: 100;
+            }
+
+            @media(min-width: 1024px) {
+                font-size: 2rem;
             }
         }
     }

@@ -1,6 +1,6 @@
 <template>
     <div class="input">
-        <input :type="input.type" :placeholder="input.type">
+        <input :type="input.type" :placeholder="input.type" required>
         <i :class="[classes.icon, input.icon]"></i>
     </div>
 </template>
@@ -55,6 +55,10 @@ export default {
                 @media(min-width: 768px) {
                     font-size: 2.4rem;
                 }
+
+                @media(min-width: 1024px) {
+                    font-size: 2rem;
+                }
             }
 
             &:focus {
@@ -84,6 +88,10 @@ export default {
             @media(min-width: 768px) {
                 left: 1.5rem;
                 font-size: 2.4rem;
+            }
+
+            @media(min-width: 1024px) {
+                font-size: 2.2rem;
             }
         }
 

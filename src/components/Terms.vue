@@ -30,9 +30,14 @@ export default {
             width: 100%;
             font-size: 2.4rem;
         }
+
+        @media(min-width: 768px) {
+            font-size: 2rem;
+        }
     }
 
     span {
         color: #B1B2B3;
+        cursor: pointer;
     }
 </style>

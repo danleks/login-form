@@ -1,6 +1,6 @@
 <template>
     <div class="authenticate">
-        <button class="authenticate__button">Authenticate</button>
+        <button type="submit" class="authenticate__button">Authenticate</button>
     </div>
 </template>
 
@@ -14,11 +14,12 @@ export default {
     .authenticate {
         flex: 1;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         width: 90%;
 
         @media(min-width: 768px) {
             flex: 1;
+            align-items: center;
         }
 
         &__button {
@@ -28,6 +29,7 @@ export default {
             font-size: 1.8rem;
             color: #fff;
             background-color: #CE6060;
+            cursor: pointer;
 
             @media(min-width: 768px) {
                 font-size: 2.5rem;

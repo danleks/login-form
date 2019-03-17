@@ -1,36 +1,35 @@
 <template>
   <div id="app">
-    <app-login />
+    <app-video/>
     <app-claim />
-    <div class="inputWrapper">
+    <form action="#" class="inputWrapper">
         <app-input
       v-for="input in inputs"
       :key="input.id"
       :input="input"
       />
-    </div>
+    </form>
     <app-button />
     <app-terms />
   </div>
 </template>
 
 <script>
-import Login from './components/Login.vue';
+import VideoBg from './components/VideoBg.vue';
 import Claim from './components/Claim.vue';
 import Input from './components/Input.vue';
 import Terms from './components/Terms.vue';
 import Button from './components/Button.vue';
 
 
-
 export default {
   name: 'app',
   components: {
-    'app-login': Login,
     'app-claim': Claim,
     'app-input': Input,
     'app-terms': Terms,
     'app-button': Button,
+    'app-video': VideoBg,
   },
 
   data() {
@@ -65,6 +64,16 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+body {
+
+  @media(min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
 *, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
@@ -75,10 +84,19 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 80rem;
   height: 100vh;
+  margin: auto;
+  background-color: rgba(#393B41, .5);
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media(min-width: 1024px) {
+    height: 60vh;
+    width: 60rem;
+
+  }
 }
 
 .inputWrapper {
