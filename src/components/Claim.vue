@@ -13,14 +13,14 @@ export default {
 
 <style lang="scss" scoped>
     .claim {
-        flex: 2;
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         @media(min-width: 768px) {
-            flex: 3;
+            flex: 2;
         }
 
         @media(min-width: 1024px) {

@@ -12,18 +12,12 @@ export default {
 
 <style lang="scss" scoped>
     .authenticate {
-        flex: 1;
         display: flex;
         align-items: flex-start;
-        width: 90%;
+        width: 100%;
 
         @media(min-width: 768px) {
-            flex: 1;
-            align-items: center;
-        }
-
-        @media(min-width: 768px) {
-            align-items: flex-end;
+           //
         }
 
         &__button {

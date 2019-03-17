@@ -8,8 +8,8 @@
       :key="input.id"
       :input="input"
       />
+      <app-button />
     </form>
-    <app-button />
     <app-terms />
   </div>
 </template>

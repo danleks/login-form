@@ -42,7 +42,12 @@ export default {
             transition: all .3s;
 
             @media(min-width: 768px) {
-                padding: 2rem 0 1rem 0;
+                padding: 2rem 0 2rem 0;
+                padding-left: 3.8rem;
+            }
+
+            @media(min-width: 1024px) {
+                padding: 2rem 0 2rem 0;
                 padding-left: 3.8rem;
             }
 
@@ -91,6 +96,7 @@ export default {
             }
 
             @media(min-width: 1024px) {
+                padding: 3rem 0 0 0;
                 font-size: 2.2rem;
             }
         }
