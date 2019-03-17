@@ -22,6 +22,10 @@ export default {
             align-items: center;
         }
 
+        @media(min-width: 768px) {
+            align-items: flex-end;
+        }
+
         &__button {
             width: 100%;
             padding: 1.5rem;

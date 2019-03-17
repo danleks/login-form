@@ -1,4 +1,10 @@
-# login-form
+# login form
+
+A simple and responsive login form
+
+## helpful links:
+
+* [Live version of the form](https://zen-ritchie-783459.netlify.com/)
 
 ## Project setup
 ```

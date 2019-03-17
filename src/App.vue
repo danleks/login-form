@@ -93,7 +93,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   @media(min-width: 1024px) {
-    height: 60vh;
+    height: 60rem;
     width: 60rem;
 
   }
