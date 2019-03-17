@@ -94,7 +94,7 @@ body {
 
   @media(min-width: 1024px) {
     height: 60rem;
-    width: 60rem;
+    width: 50rem;
 
   }
 }
